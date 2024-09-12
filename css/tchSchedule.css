@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #0c0c1bc1;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.nav-link, .teacherName {
+    color: #fff;
+    transition: transform 0.2s; /* Add a smooth transition effect */
+}
+
+.nav-link:hover, .teacherName:hover {
+    color: #49bee6;
+    transform: scale(1.1); /* Zoom in by 20% on hover */
+}
+
+.cardContainer{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.tableRowHeader{
+    border-bottom: 3px solid #6c757d;
+}
+

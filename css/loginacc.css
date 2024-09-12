@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(../img/loginbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-color: rgb(219, 226, 226); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.col-lg-5{
+    border-radius: 20px;
+    background-color: #fff;
+    /* border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; */
+}
+
+.main-row{
+    border-radius: 20px;
+    background-color: #0c0c1b38;
+    /* 0c0c1baf */
+    box-shadow: 10px 5px 5px #0c0c1b;
+}
+.admin-login-btn{
+    background-color: rgb(12, 123, 192);
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 40px;
+    color: #fff;
+    font-weight: bold;
+}
+.admin-login-btn:hover{
+    background-color: #fff;
+    color: rgb(12, 123, 192);
+    border: #0c0c1b 1px solid;
+    font-weight: bolder;
+}
+
+.hr-text{
+    /* border: 2px solid rgb(8, 160, 255); */
+    border: 10px solid green;
+    border-radius: 5px
+}
+
+.register-link{
+    cursor: pointer;
+}
+
+#eyeIcon{
+    cursor: pointer;
+}
+/* .main-container{
+    margin-top: 150px;
+} */

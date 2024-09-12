@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #0c0c1bc1;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.nav-link, .teacherName {
+    color: #fff;
+    transition: transform 0.2s; /* Add a smooth transition effect */
+}
+
+.nav-link:hover, .teacherName:hover {
+    color: #49bee6;
+    transform: scale(1.1); /* Zoom in by 20% on hover */
+}
+
+/* body {
+    background-image: linear-gradient(315deg, rgba(83, 120, 149, 0.8) 0%, rgba(9, 32, 63, 0.8) 74%);
+    background-color: #537895;
+    background-size: cover;
+
+} */
+
+/* section.hero{
+    padding: 10px 0;
+
+} */
+body{
+    background-image: url(../img/schoolBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* min-height: 100vh; */
+
+    /* height: 100vh; */
+}
+
+.hero{
+    background-color: rgba(0, 0, 0, 0.365);
+
+}
+.text-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section.hero .hero-text{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 73px;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+
+}
+
+.column-image{
+    border-radius: 50%;
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+}
+
+/* .hero-two{
+    background: url(https://images.unsplash.com/photo-1568738351265-c7065f5d4293?w=900) 50%/ cover;
+} */
+/* .content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+} */
+

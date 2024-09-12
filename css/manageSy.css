@@ -1,0 +1,12 @@
+.table-container {
+    max-height: 100vh;  /* Adjust this value based on your preference */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.subj-caption{
+    position: sticky;
+    top: 0; /* Stick it to the top */
+    background-color: white; /* Adjust as needed to match your styling */
+    z-index: 1; /* Ensure it's above the table content */
+}
